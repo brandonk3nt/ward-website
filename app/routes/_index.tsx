@@ -31,7 +31,7 @@ export default function Index() {
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
         <p className="text-3xl">Sacrament Meeting</p>
-        <p className="text-2xl">September 29, 2024</p>
+        <p className="text-2xl">October 13, 2024</p>
       </div>
 
       {
@@ -41,7 +41,7 @@ export default function Index() {
       }
       <div className="pt-4">
         <ActionButton
-          link="https://youtube.com/live/ydJtjsJ_3So?feature=share"
+          link="https://youtube.com/live/6qf7renaxxA?feature=share"
           text="Join via broadcast"
         />
       </div>
@@ -51,7 +51,7 @@ export default function Index() {
         <LineItem left="Presiding" right="Bishop Kent" />
         <LineItem left="Conducting" right="David Kolstad" />
         <LineItem left="Organist" right="Joe Capps" />
-        <LineItem left="Chorister" right="Rhonda Capps" />
+        <LineItem left="Chorister" right="Elizabeth Kasl" />
 
         <div className="bg-sky-600 rounded p-4 text-white my-2 pt-8 relative overflow-hidden">
           <img
@@ -61,11 +61,6 @@ export default function Index() {
           />
           <em className="sticky text-lg font-semibold">Announcements</em>
           <ol className="list-decimal ml-5 sticky">
-            <li className="pt-1">
-              General Conference is next week, for more info please visit
-              churchofjesuschrist.org. Our Fast Sunday for October will be on
-              Oct 13th.
-            </li>
             <li className="pt-1">
               Our ward is in charge of cleaning the building for the rest of the
               year, so be on the lookout for opportunities to help with those
@@ -82,15 +77,15 @@ export default function Index() {
           </ol>
         </div>
 
-        <LineItem left="Opening Hymn" middle="I Am a Child of God" right="301" />
-        <LineItem left="Invocation" right="Tracker Reynolds" />
+        <LineItem left="Opening Hymn" middle="We Thank Thee O God for a Prophet" right="19" />
+        <LineItem left="Invocation" right="Ashlee Gray" />
 
         <LineItemBold middle="Ward Business" />
 
-        <LineItem left="Sacrament Hymn" middle="Tis Sweet to Sing the Matchless Love" right="177" />
+        <LineItem left="Sacrament Hymn" middle="O Lord of Hosts" right="178" />
         <LineItemBold middle="Administration of the Sacrament" />
 
-        <LineItemBold middle="Primary Program" />
+        <LineItemBold middle="Bearing of Testimonies" />
 
         {
         /*
@@ -101,9 +96,9 @@ export default function Index() {
         */
         }
 
-        <LineItem left="Closing Hymn" middle="I Feel My Savior's Love (congregation join and stand on last verse)" right="Primary 74" />
+        <LineItem left="Closing Hymn" middle="I Need Thee Every Hour" right="98" />
 
-        <LineItem left="Benediction" right="Liz Cornia" />
+        <LineItem left="Benediction" right="Shaeli Kersee" />
       </div>
 
       <hr className="h-px my-8 bg-gray-400 border-0" />
