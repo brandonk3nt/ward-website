@@ -31,7 +31,7 @@ export default function Index() {
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Dana Ranch Ward</p>
         <p className="text-3xl">Sacrament Meeting</p>
-        <p className="text-2xl">March 9, 2025</p>
+        <p className="text-2xl">March 23, 2025</p>
       </div>
 
       {
@@ -50,8 +50,8 @@ export default function Index() {
       <div id="services" className="mx-2">
         <LineItem left="Presiding" right="Bishop Shumway" />
         <LineItem left="Conducting" right="Will Shoemaker" />
-        <LineItem left="Organist" right="Whitney Kolstad" />
-        <LineItem left="Chorister" right="Joe Capps" />
+        <LineItem left="Organist" right="Joe Capps" />
+        <LineItem left="Chorister" right="Laurel Cronin" />
 
         <div className="bg-sky-600 rounded p-4 text-white my-2 pt-8 relative overflow-hidden">
           <img
@@ -75,19 +75,19 @@ export default function Index() {
 
         <LineItem
           left="Opening Hymn"
-          middle="All Creatures of Our God and King"
-          right="62"
-          link="https://www.churchofjesuschrist.org/media/music/songs/all-creatures-of-our-god-and-king?lang=eng"
+          middle="The Day Dawn is Breaking"
+          right="52"
+          link="https://www.churchofjesuschrist.org/media/music/songs/the-day-dawn-is-breaking?lang=eng"
         />
-        <LineItem left="Invocation" right="Rob Anderson" />
+        <LineItem left="Invocation" right="Julie Clement" />
 
         <LineItemBold middle="Ward Business" />
 
         <LineItem
           left="Sacrament Hymn"
-          middle="In Humility, Our Savior"
-          right="172"
-          link="https://www.churchofjesuschrist.org/media/music/songs/in-humility-our-savior?lang=eng"
+          middle="While of These Emblems We Partake"
+          right="174"
+          link="https://www.churchofjesuschrist.org/media/music/songs/while-of-these-emblems-we-partake?lang=eng"
         />
 
         <LineItemBold middle="Administration of the Sacrament" />
@@ -98,24 +98,24 @@ export default function Index() {
           */
         }
 
-        <LineItem left="Speaker" right="Missionaries" />
-        <LineItem left="Speaker" right="David Malone" />
+        <LineItem left="Speaker" right="Hunter Reynolds" />
+        <LineItem left="Speaker" right="Jennifer Andersen" />
         <LineItem
           left="Intermediate Hymn"
-          middle="Do What is Right Grace"
-          right="237"
-          link="https://www.churchofjesuschrist.org/media/music/songs/do-what-is-right?lang=eng"
+          middle="Standing on the Promises"
+          right="1023"
+          link="https://www.churchofjesuschrist.org/media/music/songs/standing-on-the-promises?lang=eng"
         />
-        <LineItem left="Speaker" right="Sydney Kent" />
+        <LineItem left="Speaker" right="Nicholas Wallace" />
 
         <LineItem
           left="Closing Hymn"
-          middle="Let The Holy Spirit Guide"
-          right="143"
-          link="https://www.churchofjesuschrist.org/media/music/songs/let-the-holy-spirit-guide?lang=eng"
+          middle="As I Search the Holy Scriptures"
+          right="277"
+          link="https://www.churchofjesuschrist.org/media/music/songs/as-i-search-the-holy-scriptures?lang=eng"
         />
 
-        <LineItem left="Benediction" right="Jane Beagle" />
+        <LineItem left="Benediction" right="Fabio Guimarães" />
       </div>
 
       <hr className="h-px my-8 bg-gray-400 border-0" />
